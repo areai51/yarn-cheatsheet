@@ -8,7 +8,6 @@ Yarn caches every package it downloads so it never needs to again. It also paral
 
 ## Common NPM commands in Yarn
 
-### Commands that have changed
 |NPM Command | Yarn Command| Description (_wherever necessary)|
 |:---|:---|---|
 |npm install|yarn  <br/> yarn install|
