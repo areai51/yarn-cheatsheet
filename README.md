@@ -13,8 +13,8 @@ Yarn caches every package it downloads so it never needs to again. It also paral
 |npm install|yarn  <br/> yarn install|Will install packages listed in the package.json file|
 | npm install `pkg-name` <br/> npm install --save `pkg-name`| yarn add `pkg-name`|By default Yarn  adds the pgk-name to package.json and yarn.lock files|
 |npm install  `pkg-name@1.0.0` | yarn add `pgk-name@1.0.0`|
-|npm  install `pkg-name` --dev| yarn add --dev|  
-|npm  install `pkg-name` --peer| yarn add --peer|  
+|npm  install `pkg-name` --dev| yarn add `pkg-name` --dev|  
+|npm  install `pkg-name` --peer| yarn add `pkg-name`--peer|  
 |npm  install `pkg-name` --optional| yarn add --optional|  
 |npm install -g `pkg-name`|yarn add global `pkg-name`|
 |npm update | yarn upgrade|Note its called **upgrade** in yarn
@@ -30,6 +30,8 @@ Yarn caches every package it downloads so it never needs to again. It also paral
 |npm login | yarn login (and logout)|
 |npm test | yarn test|
 |npm install --production | yarn --production|
+|npm  --version | yarn version|
+|npm  info | yarn info|
 
 
 
