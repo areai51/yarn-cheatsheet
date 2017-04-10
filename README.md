@@ -16,16 +16,16 @@ Yarn caches every package it downloads so it never needs to again. It also paral
 
 |NPM Command | Yarn Command| Description (_wherever necessary_)|
 |:---|:---|---|
-|npm install|yarn  <br/> yarn install|Will install packages listed in the package.json file|
-| npm install `pkg-name` <br/> npm install --save `pkg-name`| yarn add `pkg-name`|By default Yarn  adds the pgk-name to package.json and yarn.lock files|
-|npm install  `pkg-name@1.0.0` | yarn add `pgk-name@1.0.0`|
-|npm  install `pkg-name` --save-dev| yarn add `pkg-name` --dev|  
-|npm  install `pkg-name` --peer| yarn add `pkg-name`--peer|  
-|npm  install `pkg-name` --optional| yarn add --optional|  
-|npm install -g `pkg-name`|yarn add global `pkg-name`|
-|npm update | yarn upgrade|Note its called **upgrade** in yarn
+|npm install|yarn <br/> yarn install|Will install packages listed in the `package.json` file|
+|npm install `pkg-name` <br/> npm install --save `pkg-name`| yarn add `pkg-name`|By default Yarn adds the `pgk-name` to `package.json` and `yarn.lock` files|
+|npm install `pkg-name@1.0.0` | yarn add `pgk-name@1.0.0`|
+|npm install `pkg-name` --save-dev| yarn add `pkg-name` --dev|  
+|npm install `pkg-name` --peer| yarn add `pkg-name`--peer|  
+|npm install `pkg-name` --optional| yarn add --optional|  
+|npm install -g `pkg-name`| yarn add global `pkg-name`|
+|npm update | yarn upgrade| Note: It's called **upgrade** in yarn|
 |npm uninstall `pkg-name`| yarn remove `pkg-name`|
-|npm run `scrit-name`| yarn run `script-name`|
+|npm run `script-name`| yarn run `script-name`|
 |npm init | yarn init|
 |npm pack | yarn pack| Creates a compressed gzip archive of the package dependencies|
 |npm link | yarn link|
@@ -40,16 +40,13 @@ Yarn caches every package it downloads so it never needs to again. It also paral
 |npm  info | yarn info|
 
 
-
 ### New Commands in Yarn
 |Yarn Command | Description|
 |---|---|
-|yarn why `pkg-name` | Builds a dependency gaph on why this package is being used.|
-|yarn clean | frees up space by removing unnecessary files and folders from dependencies|
-|yarn licenses ls | Inspect the licenses of your dependencies |
-yarn licenses generate-disclaimer | Automatically create your license dependency disclaimer|
-
-
+|yarn why `pkg-name` | Builds a dependency graph on why this package is being used|
+|yarn clean | Frees up space by removing unnecessary files and folders from dependencies|
+|yarn licenses ls | Inspect the licenses of your dependencies|
+|yarn licenses generate-disclaimer | Automatically create your license dependency disclaimer|
 
 
 ## References
